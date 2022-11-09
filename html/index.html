@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<HEAD>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="../javascript/funcoes.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</HEAD>
+
+<BODY>
+    <div class="calculadora">
+        <textarea id="tResultado" style="width: 100%;height:20px;resize:none;"></textarea><br><br>
+        <div class="grid-container">
+            <button onclick="mostrarSoma()" id="bAdicao">+</button>
+            <button onclick="mostrarSubt()" id="bSubt">-</button>
+            <button onclick="mostrarDivi()" id="bDivi">/</button>
+            <button onclick="mostrarMult()" id="bMult">X</button>
+            <button onclick="resultadoPot()" id="bPot">x²</button>
+            <button onclick="resultadoRaiz()" id="bRaiz">raiz</button>
+            <button onclick="mostrarSen()" id="bSen">sen</button>
+            <button onclick="mostrarCos()" id="bCos">cos</button>
+            <button onclick="mostrarTang()" id="bTang">tangente</button>
+            <button onclick="mostrarMod()" id="bMod">mod</button>
+            <button onclick="mostrarLog()" id="bLog">log</button>
+            <button id="bApagar" onclick="apagarValores()">C</button>
+            <button id="resultado" onclick="coletar()">CE</button>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>
